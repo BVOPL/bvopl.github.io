@@ -26,7 +26,7 @@
     function onSignIn(googleUser) {
       document.getElementById("mensaje").innerHTML = 'Procesando...';
       var id_token = googleUser.getAuthResponse().id_token;
-      var url = 'https://script.google.com/macros/s/AKfycbyO2qBaBV7ck-ajfpkkCto9H5BhNUEc8jOGAy6eb0VQ3HsIeDaQjhWmkAebkpKybkWh/exec?q=' + id_token;
+      var url = 'https://script.google.com/macros/s/AKfycbwgLJZXIxy3507Z4Ug-WvCBr0y_usRD0butT7eH9Ox1ADy80xFc3wer8Kac-wk3uzHM/exec?q=' + id_token;
       window.location.href = url;
     }
   </script>
